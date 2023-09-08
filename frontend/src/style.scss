@@ -1,0 +1,15 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  --background: rgb(31, 31, 31);
+}
+
+body {
+  background: var(--background);
+}
